@@ -1,0 +1,48 @@
+# Ignore Qt build directories
+build/
+*.pro.user
+*.pro.user.*
+*.pro.user*
+
+# Ignore debug and release folders
+debug/
+release/
+
+# Ignore generated docs if needed
+#docs/
+docs/*.html
+docs/*.pdf
+
+# Ignore object and temporary files
+*.o
+*.obj
+*.log
+*.tmp
+
+# Ignore QtCreator session files
+*.autosave
+*.creator.*
+*.creator.user.*
+
+# Ignore other common build files
+*.dll
+*.exe
+*.app
+*.dSYM
+*.DS_Store
+*.qmake.cache
+
+# Platform-specific ignores
+*.AppleDouble
+*.LSOverride
+*~
+*.swp
+
+# Visual Studio
+*.suo
+*.sln
+*.vcxproj.user
+
+# Xcode
+*.xcworkspace
+*.xcuserstate
