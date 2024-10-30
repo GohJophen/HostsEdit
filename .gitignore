@@ -26,7 +26,6 @@ docs/*.pdf
 
 # Ignore other common build files
 *.dll
-*.exe
 *.app
 *.dSYM
 *.DS_Store
